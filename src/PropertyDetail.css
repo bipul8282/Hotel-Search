@@ -1,0 +1,36 @@
+/* PropertyDetail.css */
+.property-detail {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .property-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .property-detail h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .property-detail p {
+    color: #777;
+  }
+  
+  .property-detail button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  
+  

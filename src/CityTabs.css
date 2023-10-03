@@ -1,0 +1,33 @@
+/* CityTabs.css */
+.city-tabs {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+    gap: 15px;
+  }
+  
+  .city-tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 150px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .city-tab:hover {
+    background-color: #007bff; /* Change the background color on hover */
+    color: #fff;
+  }
+  
+  .city-tab.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+
+  
+  
