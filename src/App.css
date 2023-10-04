@@ -3,5 +3,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color:  #eef2f7;;
 }
-
+.center-content {
+  text-align: center;
+  }
+img{
+  border-radius: 20px;
+}

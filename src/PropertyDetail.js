@@ -18,12 +18,15 @@ const PropertyDetail = ({ match }) => {
   };
 
   return (
+    <>
+
     <div className="property-detail">
       <img src={property.image} alt={property.name} />
       <h2>{property.name}</h2>
       <p>{property.description}</p>
       <button>Book Now</button>
     </div>
+    </>
   );
 };
 
