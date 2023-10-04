@@ -1,4 +1,3 @@
-// CityTabs.js
 import React from 'react';
 import "./CityTabs.css";
 
@@ -9,7 +8,7 @@ const CityTabs = ({ cities, onTabClick }) => {
         <div
           key={index}
           className="city-tab"
-          onClick={() => onTabClick(city)} // Call the onTabClick function on click
+          onClick={() => onTabClick(city)} 
         >
           {city}
         </div>

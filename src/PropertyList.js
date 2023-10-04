@@ -1,4 +1,3 @@
-// PropertyList.js
 import React from 'react';
 import PropertyCard from './PropertyCard';
 import "./PropertyList.css";

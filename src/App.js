@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import CityTabs from './CityTabs'; // Import CityTabs here
+import CityTabs from './CityTabs'; 
 import PropertyList from './PropertyList';
 import PropertyDetail from './PropertyDetail';
 
@@ -17,13 +17,13 @@ const properties = [
    { id: 5, name: 'Dollr General-5416 Rock Quarry Rd, Raleigh,NC 27610', description: 'Description 5', image: 'https://img.belmond.com/f_auto/t_320x222/photos/mar/mar-gst-pool10.jpg',location: '8558 Green Rd.' },
   { id: 5, name: 'Dollr General-5416 Rock Quarry Rd, Raleigh,NC 27610', description: 'Description 5', image: 'https://r1imghtlak.mmtcdn.com/76799282284411ecab5f0a58a9feac02.jpg?&output-quality=75&downsize=328:180&crop=328:180;0,19&output-format=jpg',location: '8558 Green Rd.' },
  
-  // Add more properties with unique IDs
+  
 ];
 
 function App() {
-  // Define the onTabClick function here
+  
   const onTabClick = (city) => {
-    // Implement your logic here
+  
     console.log(`Clicked on ${city}`);
   };
 
@@ -36,7 +36,7 @@ function App() {
       </p>
      
       <BrowserRouter>
-        <CityTabs cities={cities} onTabClick={onTabClick} /> {/* Place CityTabs outside of Routes */}
+        <CityTabs cities={cities} onTabClick={onTabClick} /> 
         <Routes>
           <Route path="/" element={<PropertyList properties={properties.slice(0, 6)} />} />
           <Route path="/property/:id" element={<PropertyDetail />} />

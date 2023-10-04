@@ -1,4 +1,4 @@
-/* CityTabs.css */
+
 .city-tabs {
   display: flex;
   justify-content: start;
@@ -11,7 +11,7 @@
   cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 150px;
-  transition: background-color 0.3s; /* Add a smooth transition effect */
+  transition: background-color 0.3s; 
 }
 
 .city-tab:hover {
