@@ -18,9 +18,9 @@ const PropertyCard = ({ property }) => {
         <img src={property.image} alt={property.name} />
       </div>
       <div className="location">
-        <LocationOnIcon className="location-icon" />
-        8558 Pecan St.
-      </div>
+  <LocationOnIcon className="location-icon" />
+  {property.location}
+</div>
       <div className="property-name">
         <h2>{property.name}</h2>
       </div>
